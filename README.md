@@ -1,8 +1,7 @@
 # Smoke-FireDectectio_project
 
-> [!NOTE] 
-
 > **Require python 3.12.7**
+>
 > [You can install it with this link](https://www.python.org/downloads/release/python-3127/)
 
 ## Setp up
