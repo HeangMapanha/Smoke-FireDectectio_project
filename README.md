@@ -4,7 +4,7 @@
 >
 > [You can install it with this link](https://www.python.org/downloads/release/python-3127/)
 
-## Setp up
+## Local Setup
 1. Fork the repository
 2. **Install the correct python version above**
 3. Open the terminal within the project
@@ -24,3 +24,7 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Google Collab
+1. Download the train.py from the repository
+2. Upload it to google drive to access it in Google Collab
