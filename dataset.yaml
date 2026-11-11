@@ -1,0 +1,21 @@
+# Dataset config for YOLO training.
+#
+# Expected folder layout:
+#   my_dataset/
+#   ├── images/
+#   │   ├── train/   (img001.jpg, ...)
+#   │   └── val/
+#   └── labels/
+#       ├── train/   (img001.txt, ...)   each line: class x_center y_center width height (normalized 0-1)
+#       └── val/
+
+path: /absolute/path/to/my_dataset   # dataset root
+train: images/train                  # relative to 'path'
+val: images/val
+# test: images/test                  # optional
+
+# Class names (index -> name). Replace with your own classes.
+names:
+  0: class_a
+  1: class_b
+  2: class_c
