@@ -4,4 +4,8 @@ dataset/*
 model/*
 !model/.gitkeep
 
-.venv
+baseline*/
+runs
+test.ipynb
+
+test*/
